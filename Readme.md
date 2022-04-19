@@ -1,4 +1,4 @@
-# React Image Gallary
+# React Image Gallery
 
 See your favorite photos in the parallaxy way 😃
 
