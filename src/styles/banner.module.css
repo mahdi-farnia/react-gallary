@@ -1,0 +1,28 @@
+.bannerImage {
+  background-image: url('../assets/particles@1x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media screen and (min-width: 1024px) {
+  .bannerImage {
+    background-image: url('../assets/particles@2x.jpg');
+  }
+}
+
+.pointDown {
+  transform: translate(-50%, 0);
+  animation: point-down 3s ease-out infinite;
+}
+
+@keyframes point-down {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+
+  50% {
+    transform: translate(-50%, 10px);
+  }
+}
